@@ -1,0 +1,63 @@
+/* FONTS ********************/
+
+@font-face {
+  font-family: alien_encounters;
+  src: url(fonts/Alien-Encounters-Solid-Bold-Italic.ttf);
+}
+
+@font-face {
+  font-family: alien_encounters2;
+  src: url(fonts/Alien-Encounters-Italic.ttf);
+}
+
+@font-face {
+  font-family: alien_encounters3;
+  src: url(fonts/Alien-Encounters-Regular.ttf);
+}
+
+/***************************/
+
+body{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(#0000ff, #0099ff);
+}
+
+h1{
+  font-family: alien_encounters;
+}
+
+#word {
+  padding: 15px;
+  position: relative;
+  top: 100px;
+  background: #0099ff;
+  width: 550px;
+}
+
+#content-box {
+  background: #99ccff;
+  padding: 10px;
+  width: 500px;
+  margin: 10px;
+}
+
+ul {
+  position: relative;
+  margin-bottom: 13px;
+  list-style-type: none;
+  padding: 15px;
+  display: flex;
+  justify-content: left;
+}
+
+a {
+  text-decoration: none;
+  background: #99ccff;
+  padding: 15px;
+}
+
+a:hover{
+  background: #e6e6ff;
+}
