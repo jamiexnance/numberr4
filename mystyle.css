@@ -23,6 +23,11 @@ body{
   justify-content: center;
   background: linear-gradient(#0000ff, #0099ff);
   font-family: alien_encounters2;
+
+  img.center {
+    display: block;
+    margin-right: auto;
+  }
 }
 
 h1{
