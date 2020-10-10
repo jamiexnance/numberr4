@@ -26,7 +26,8 @@ body{
 
   img.center {
     display: block;
-    margin-right: auto;
+    position: relative;
+    margin: 0 auto;
   }
 }
 
