@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: alien_encounters;
-  src: url(fonts/Alien-Encounters-Solid-Bold-Italic.ttf);
+  src: url(fonts/Alien-Encounters-Italic.ttf);
 }
 
 @font-face {
   font-family: alien_encounters2;
-  src: url(fonts/Alien-Encounters-Italic.ttf);
+  src: url(fonts/Alien-Encounters-Regular.ttf);
 }
 
 @font-face {
@@ -22,6 +22,7 @@ body{
   display: flex;
   justify-content: center;
   background: linear-gradient(#0000ff, #0099ff);
+  font-family: alien_encounters2;
 }
 
 h1{
@@ -41,6 +42,7 @@ h1{
   padding: 10px;
   width: 500px;
   margin: 10px;
+  font-family: alien_encounters3;
 }
 
 ul {
